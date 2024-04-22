@@ -1,5 +1,4 @@
 mantras\Gananaanaam jagati.wav
-mantras\Kshutpipaasaamalaa anushtup .wav
 mantras\Trishtubh-Shri-suktam.wav
 mantras\anushtup Shri 4.wav
 mantras\anushtup Shri suktam .wav
@@ -8,7 +7,6 @@ mantras\anushtup-shri.wav
 mantras\gayatri.wav
 mantras\gita.wav
 mantras\jagati I think.wav
-mantras\jagati.wav
 mantras\purus.wav
+mantras\trishtubh-1.wav
 mantras\trishtubh-purusha.wav
-mantras\upaitu-maa-nvevasakha.wav

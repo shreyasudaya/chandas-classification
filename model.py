@@ -92,7 +92,6 @@ class CNET():
 
             X = main_input
             Y = tf.nn.convolution(X, W, padding='SAME')
-            #Y = self._causal_conv(X, W, fw)
             
             Y += b
             Y = tf.tanh(Y[:, :, :r])*tf.sigmoid(Y[:, :, r:])

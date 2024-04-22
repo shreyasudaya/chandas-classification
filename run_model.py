@@ -71,15 +71,17 @@ def classify_number(number):
     if 20<number<30:
         return 'Gayatri'
     elif 30<=number <32:
-        return 'Ushnih'
-    elif 32<number< 40:
+        return 'Ushnih'#Since this is very rare we need not focus that much on this
+    elif 32<number<=38:
         return 'Anushtup'
-    elif number==40:
+    elif 39<=number<=41:
         return 'Brihati'
-    elif number == 48:
+    elif 41<number <48:
+        return 'Trishtubh'
+    elif number>=48:
         return 'Jagati'
     else:
-        return 'Trishtubh'
+        return number
 
 def read_and_classify(filename='results.txt'):
     try:
@@ -220,9 +222,6 @@ with tf.Session(config=tfconfig) as sess:
 Y = np.zeros(no_utt)
 
 
-
-# Load the wav file
-sample_rate, audio_data = wavfile.read("mantras/anushtup-shri.wav")
 
 
 
